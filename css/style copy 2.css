@@ -276,7 +276,7 @@ iframe{
 }
 
 .section-dark{
-	background-color:#000000;
+	background-color:#393f43;
 	padding:90px 0;
 }
 
@@ -624,8 +624,8 @@ iframe{
 
 .footer {
 	z-index:900;
-	background-color: #111111;
-    border-top: 1px solid #353535;
+	background-color: #2f3539;
+    border-top: 1px solid #393f43;
 	padding: 55px 0;
 	font-weight: 300;
 }
