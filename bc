@@ -1,0 +1,26 @@
+   <!--begin section-grey-->
+    <div class="section-grey sponsors-padding">
+        
+        <!--begin container-->
+        <div class="container">
+
+            <!--begin row-->
+            <div class="row text-center">
+            
+                <!--begin col-sm-12-->
+                <div class="col-sm-12 sponsors">
+                    <img src="images/partner2.png" class="sponsor" alt="image">
+                    <img src="images/partner1.png" class="sponsor" alt="image">
+                    <img src="images/partner3.png" class="sponsor" alt="image">
+                    <img src="images/partner5.png" class="sponsor" alt="image">
+                    <img src="images/partner4.png" class="sponsor" alt="image">
+                </div>
+                <!--end col-sm-12-->
+                
+            </div>
+            <!--end row-->
+            
+        </div>
+        <!--end container-->
+    
+    </div> 
