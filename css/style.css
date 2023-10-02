@@ -1199,6 +1199,7 @@ select.white-input:-ms-input-placeholder { /* Internet Explorer 10+ */
 #register-form input.register-input:focus, #register-form select.register-input:focus {
   border-color:#fff!important;
   outline: none;
+  background-color: black;
 }
 
 p.register_success_box{
@@ -1816,7 +1817,7 @@ p.testimonials-text {
 	width:100%;
 	position:relative;
 	z-index:100;
-	background: url(http://placehold.it/1920x1280);
+	background: url(../images/parallax-2.jpg);
 	background-position: center top;
     background-repeat: no-repeat;
 	background-attachment: fixed;
