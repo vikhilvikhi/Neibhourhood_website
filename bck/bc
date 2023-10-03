@@ -24,3 +24,533 @@
         <!--end container-->
     
     </div> 
+
+     <!--begin section-grey-->
+     <div class="section-grey sponsors-padding-small">
+
+        <!--begin container-->
+        <div class="container">
+
+            <!--begin row-->
+            <div class="row text-center">
+
+                <!--begin col-sm-12-->
+                <div class="col-sm-12 sponsors">
+                    <img src="images/partner2.png" class="sponsor" alt="image">
+                    <img src="images/partner1.png" class="sponsor" alt="image">
+                    <img src="images/partner3.png" class="sponsor" alt="image">
+                    <img src="images/partner5.png" class="sponsor" alt="image">
+                    <img src="images/partner4.png" class="sponsor" alt="image">
+                </div>
+                <!--end col-sm-12-->
+
+            </div>
+            <!--end row-->
+
+        </div>
+        <!--end container-->
+
+    </div>
+    <!--end section-grey-->
+
+      <!--begin team -->
+      <section class="section-white small-padding-bottom" id="team">
+
+        <!--begin container-->
+        <div class="container">
+
+            <!--begin row-->
+            <div class="row margin-bottom-50">
+
+                <!--begin col-md-12-->
+                <div class="col-md-10 col-md-offset-1 text-center">
+                    <h2 class="section-title">Meet Our Amazing Team</h2>
+
+                    <div class="separator_wrapper">
+                        <i class="icon icon-star-two blue"></i>
+                    </div>
+
+                    <p class="section-subtitle">There are many variations of passages of Lorem Ipsum available, but the
+                        majority<br>have suffered alteration, by injected humour, or new randomised words.</p>
+                </div>
+                <!--end col-md-12-->
+
+            </div>
+            <!--end row-->
+
+            <!--begin row-->
+            <div class="row">
+
+                <div id="myCarousel" class="carousel carousel1 slide margin-bottom-40" data-interval="false">
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+
+                        <div class="item active">
+
+                            <!--begin team-item -->
+                            <div class="col-sm-4 team-item">
+
+                                <!--begin team-popup -->
+                                <div class="team-popup">
+
+                                    <img src="http://placehold.it/800x800" class="width-100" alt="pic">
+
+                                    <div class="team-popup-overlay">
+
+                                        <div class="team-icon">
+
+                                            <a href="#">
+                                                <i class="icon icon-twitter"></i>
+                                            </a>
+
+                                            <a href="#">
+                                                <i class="icon icon-facebook"></i>
+                                            </a>
+
+                                            <a href="#">
+                                                <i class="icon icon-pinterest"></i>
+                                            </a>
+
+                                            <a href="#">
+                                                <i class="icon icon-youtube"></i>
+                                            </a>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <!--end team-popup -->
+
+                                <!--begin team_box -->
+                                <div class="team-box">
+
+                                    <h3>Joanna Hawkins</h3>
+
+                                    <p class="team-info">Graphic Designer</p>
+
+                                </div>
+                                <!--end team_box -->
+
+                            </div>
+                            <!--end team-item -->
+
+                            <!--begin team-item -->
+                            <div class="col-sm-4 team-item">
+
+                                <!--begin team-popup -->
+                                <div class="team-popup">
+
+                                    <img src="http://placehold.it/800x800" class="width-100" alt="pic">
+
+                                    <div class="team-popup-overlay">
+
+                                        <div class="team-icon">
+
+                                            <a href="#">
+                                                <i class="icon icon-twitter"></i>
+                                            </a>
+
+                                            <a href="#">
+                                                <i class="icon icon-facebook"></i>
+                                            </a>
+
+                                            <a href="#">
+                                                <i class="icon icon-pinterest"></i>
+                                            </a>
+
+                                            <a href="#">
+                                                <i class="icon icon-youtube"></i>
+                                            </a>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <!--end team-popup -->
+
+                                <!--begin team_box -->
+                                <div class="team-box">
+
+                                    <h3>Johnatan Smiths</h3>
+
+                                    <p class="team-info">SEO Specialist</p>
+
+                                </div>
+                                <!--end team_box -->
+
+                            </div>
+                            <!--end team-item -->
+
+                            <!--begin team-item -->
+                            <div class="col-sm-4 team-item">
+
+                                <!--begin team-popup -->
+                                <div class="team-popup">
+
+                                    <img src="http://placehold.it/800x800" class="width-100" alt="pic">
+
+                                    <div class="team-popup-overlay">
+
+                                        <div class="team-icon">
+
+                                            <a href="#">
+                                                <i class="icon icon-twitter"></i>
+                                            </a>
+
+                                            <a href="#">
+                                                <i class="icon icon-facebook"></i>
+                                            </a>
+
+                                            <a href="#">
+                                                <i class="icon icon-pinterest"></i>
+                                            </a>
+
+                                            <a href="#">
+                                                <i class="icon icon-youtube"></i>
+                                            </a>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <!--end team-popup -->
+
+                                <!--begin team_box -->
+                                <div class="team-box">
+
+                                    <h3>Richard Johanson</h3>
+
+                                    <p class="team-info">Web Developer</p>
+
+                                </div>
+                                <!--end team_box -->
+
+                            </div>
+                            <!--end team-item -->
+
+                        </div>
+
+                        <div class="item">
+
+                            <!--begin team-item -->
+                            <div class="col-sm-4 team-item">
+
+                                <!--begin team-popup -->
+                                <div class="team-popup">
+
+                                    <img src="http://placehold.it/800x800" class="width-100" alt="pic">
+
+                                    <div class="team-popup-overlay">
+
+                                        <div class="team-icon">
+
+                                            <a href="#">
+                                                <i class="icon icon-twitter"></i>
+                                            </a>
+
+                                            <a href="#">
+                                                <i class="icon icon-facebook"></i>
+                                            </a>
+
+                                            <a href="#">
+                                                <i class="icon icon-pinterest"></i>
+                                            </a>
+
+                                            <a href="#">
+                                                <i class="icon icon-youtube"></i>
+                                            </a>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <!--end team-popup -->
+
+                                <!--begin team_box -->
+                                <div class="team-box">
+
+                                    <h3>Christina Hawkins</h3>
+
+                                    <p class="team-info">Graphic Designer</p>
+
+                                </div>
+                                <!--end team_box -->
+
+                            </div>
+                            <!--end team-item -->
+
+                            <!--begin team-item -->
+                            <div class="col-sm-4 team-item">
+
+                                <!--begin team-popup -->
+                                <div class="team-popup">
+
+                                    <img src="http://placehold.it/800x800" class="width-100" alt="pic">
+
+                                    <div class="team-popup-overlay">
+
+                                        <div class="team-icon">
+
+                                            <a href="#">
+                                                <i class="icon icon-twitter"></i>
+                                            </a>
+
+                                            <a href="#">
+                                                <i class="icon icon-facebook"></i>
+                                            </a>
+
+                                            <a href="#">
+                                                <i class="icon icon-pinterest"></i>
+                                            </a>
+
+                                            <a href="#">
+                                                <i class="icon icon-youtube"></i>
+                                            </a>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <!--end team-popup -->
+
+                                <!--begin team_box -->
+                                <div class="team-box">
+
+                                    <h3>Richard Johanson</h3>
+
+                                    <p class="team-info">SEO Specialist</p>
+
+                                </div>
+                                <!--end team_box -->
+
+                            </div>
+                            <!--end team-item -->
+
+                            <!--begin team-item -->
+                            <div class="col-sm-4 team-item">
+
+                                <!--begin team-popup -->
+                                <div class="team-popup">
+
+                                    <img src="http://placehold.it/800x800" class="width-100" alt="pic">
+
+                                    <div class="team-popup-overlay">
+
+                                        <div class="team-icon">
+
+                                            <a href="#">
+                                                <i class="icon icon-twitter"></i>
+                                            </a>
+
+                                            <a href="#">
+                                                <i class="icon icon-facebook"></i>
+                                            </a>
+
+                                            <a href="#">
+                                                <i class="icon icon-pinterest"></i>
+                                            </a>
+
+                                            <a href="#">
+                                                <i class="icon icon-youtube"></i>
+                                            </a>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <!--end team-popup -->
+
+                                <!--begin team_box -->
+
+                                <div class="team-box">
+
+                                    <h3>Alexandra Smiths</h3>
+
+                                    <p class="team-info">Web Developer</p>
+
+                                </div>
+                                <!--end team_box -->
+
+                            </div>
+                            <!--end team-item -->
+
+                        </div>
+
+                    </div>
+
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                    </ol>
+
+                </div>
+
+            </div>
+            <!--end row-->
+
+        </div>
+        <!--end container-->
+
+    </section>
+    <!--end team-->
+
+
+    
+    <!--begin blog -->
+    <section class="section-white" id="blog">
+
+        <!--begin container-->
+        <div class="container">
+
+            <!--begin row-->
+            <div class="row margin-bottom-50">
+
+                <!--begin col-md-12-->
+                <div class="col-md-10 col-md-offset-1 text-center">
+                    <h2 class="section-title">Our Latest News</h2>
+
+                    <!-- <div class="separator_wrapper">
+                        <i class="icon icon-star-two blue"></i>
+                    </div> -->
+
+                    <p class="section-subtitle">There are many variations of passages of Lorem Ipsum available, but the
+                        majority<br>have suffered alteration, by injected humour, or new randomised words.</p>
+                </div>
+                <!--end col-md-12-->
+
+            </div>
+            <!--end row-->
+
+            <!--begin row-->
+            <div class="row">
+
+                <!--begin col-sm-4 -->
+                <div class="col-sm-4">
+
+                    <!--begin blog-item -->
+                    <div class="blog-item">
+
+                        <!--begin popup image -->
+                        <div class="popup-wrapper">
+                            <div class="popup-gallery">
+                                <a href="#"><img src="http://placehold.it/800x550" class="width-100" alt="pic"><span
+                                        class="eye-wrapper2"><i class="icon icon-link eye-icon"></i></span></a>
+                            </div>
+                        </div>
+                        <!--begin popup image -->
+
+                        <!--begin blog-item_inner -->
+                        <div class="blog-item-inner">
+
+                            <h3 class="blog-title"><a href="#">Affinity Designer Quick Start</a></h3>
+
+                            <a href="#" class="blog-icons"><i class="icon icon-user"></i> Paul Smith</a>
+
+                            <a href="#" class="blog-icons last"><i class="icon icon-tags"></i> WordPress</a>
+
+                            <p>Quis autem velis etis reprehender etims quiste voluptate velite esse quam nihil etsa
+                                illum sedit consequatur quias quiste varias netsum.</p>
+
+                            <a href="#" class="btn btn-lg btn-small-blue scrool">Read More!</a>
+
+                        </div>
+                        <!--end blog-item-inner -->
+
+                    </div>
+                    <!--end blog-item -->
+
+                </div>
+                <!--end col-sm-4-->
+
+                <!--begin col-sm-4 -->
+                <div class="col-sm-4">
+
+                    <!--begin blog-item -->
+                    <div class="blog-item">
+
+                        <!--begin popup image -->
+                        <div class="popup-wrapper">
+                            <div class="popup-gallery">
+                                <a href="#"><img src="http://placehold.it/800x550" class="width-100" alt="pic"><span
+                                        class="eye-wrapper2"><i class="icon icon-link eye-icon"></i></span></a>
+                            </div>
+                        </div>
+                        <!--begin popup image -->
+
+                        <!--begin blog-item_inner -->
+                        <div class="blog-item-inner">
+
+                            <h3 class="blog-title"><a href="#">Solid HTML Form Structure</a></h3>
+
+                            <a href="#" class="blog-icons"><i class="icon icon-user"></i> By John Doe</a>
+
+                            <a href="#" class="blog-icons last"><i class="icon icon-tags"></i> Marketing</a>
+
+                            <p>Quis autem velis etis reprehender etims quiste voluptate velite esse quam nihil etsa
+                                illum sedit consequatur quias quiste varias netsum.</p>
+
+                            <a href="#" class="btn btn-lg btn-small-blue scrool">Read More!</a>
+
+                        </div>
+                        <!--end blog-item-inner -->
+
+                    </div>
+                    <!--end blog-item -->
+
+                </div>
+                <!--end col-sm-4-->
+
+                <!--begin col-sm-4 -->
+                <div class="col-sm-4">
+
+                    <!--begin blog-item -->
+                    <div class="blog-item">
+
+                        <!--begin popup image -->
+                        <div class="popup-wrapper">
+                            <div class="popup-gallery">
+                                <a href="#"><img src="http://placehold.it/800x550" class="width-100" alt="pic"><span
+                                        class="eye-wrapper2"><i class="icon icon-link eye-icon"></i></span></a>
+                            </div>
+                        </div>
+                        <!--begin popup image -->
+
+                        <!--begin blog-item_inner -->
+                        <div class="blog-item-inner">
+
+                            <h3 class="blog-title"><a href="#">New WordPress Theme</a></h3>
+
+                            <a href="#" class="blog-icons"><i class="icon icon-user"></i> By John Doe</a>
+
+                            <a href="#" class="blog-icons last"><i class="icon icon-tags"></i> Design</a>
+
+                            <p>Quis autem velis etis reprehender etims quiste voluptate velite esse quam nihil etsa
+                                illum sedit consequatur quias quiste varias netsum.</p>
+
+                            <a href="#" class="btn btn-lg btn-small-blue scrool">Read More!</a>
+
+                        </div>
+                        <!--end blog-item-inner -->
+
+                    </div>
+                    <!--end blog-item -->
+
+                </div>
+                <!--end col-sm-4-->
+
+            </div>
+            <!--end row-->
+
+        </div>
+        <!--end container-->
+
+    </section>
+    <!--end blog -->
