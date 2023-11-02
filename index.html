@@ -1059,29 +1059,29 @@
                 <!--end success message -->
 
                 <!--begin contact form -->
-                <form id="contact-form" class="contact" action="inc/send_email.php" method="post">
+                <form id="contact-form" class="contact" onsubmit="sendEmail(); reset(); return false;">
 
                     <!--begin col-md-6-->
                     <div class="col-md-6">
-                        <input class="contact-input white-input" required="" name="contact_names"
+                        <input class="contact-input white-input" id="name" required="" name="contact_names"
                             placeholder="Full Name*" type="text">
-                        <input class="contact-input white-input" required="" name="contact_subject"
+                        <input class="contact-input white-input" id="subject" required="" name="contact_subject"
                             placeholder="Subject*" type="text">
                     </div>
                     <!--end col-md-6-->
 
                     <!--begin col-md-6-->
                     <div class="col-md-6">
-                        <input class="contact-input white-input" required="" name="contact_email"
+                        <input class="contact-input white-input" id="email" required="" name="contact_email"
                             placeholder="Email Adress*" type="email">
-                        <input class="contact-input white-input" required="" name="contact_phone"
+                        <input class="contact-input white-input" id="phone" required="" name="contact_phone"
                             placeholder="Phone Number*" type="text">
                     </div>
                     <!--end col-md-6-->
 
                     <!--begin col-md-6-->
                     <div class="col-md-12">
-                        <textarea class="contact-commnent white-input" rows="2" cols="20" name="contact_message"
+                        <textarea class="contact-commnent white-input" id="message" rows="2" cols="20" name="contact_message"
                             placeholder="Your Message..."></textarea>
                     </div>
                     <!--end col-md-6-->
@@ -1185,6 +1185,29 @@
     <script src="js/wow.js"></script>
     <script src="js/custom.js"></script>
     <script src="js/plugins.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script>
+     function sendEmail(){
+     Email.send({
+     Host : "smtp.zoho.com",
+     Username : "info@neighborhoodts.com",
+     Password : "o#lRfm3v",
+     To : 'vikhil@loopmea.com',
+     From : document.getElementById("email").value,
+     Subject : "New Contact Form Enquiry",
+     Body : "Name:" + document.getElementById("name").value +
+     "<br> Subject:" + document.getElementById("subject").value +
+     "<br> Email:" + document.getElementById("email").value +
+     "<br> Phone:" + document.getElementById("phone").value +
+     "<br> Phone:" + document.getElementById("message").value
+
+}).then(
+  message => alert("Message Sent Successfully")
+);
+     }
+
+    </script>
 
 
 </body>
