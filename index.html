@@ -27,6 +27,8 @@
 
     <!-- Font Favicon -->
     <link rel="shortcut icon" href="images/favicon.png">
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
     
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
     <!--[if lt IE 9]>
@@ -80,7 +82,7 @@
                         <li><a href="#features">About</a></li>
                         <!-- <li><a href="#portfolio">Portfolio</a></li>
                         <li><a href="#register">Register</a></li> -->
-                        <li><a href="#team">Team</a></li>
+                        <!-- <li><a href="#team">Team</a></li> -->
                         <!-- <li><a href="#blog">Blog</a></li> -->
                         <li><a href="#services">Services</a></li>
                         <!-- <li><a href="#pricing">Pricing</a></li> -->
@@ -183,7 +185,7 @@
 
                         <div class="icon-wrapper">
                             <!-- <i class="icon icon-settings-streamline-2 features-icon"></i> -->
-                            <img src="images/works/1.jpg" alt="" style="border-radius: 20px;">
+                            <img class="service" src="images/works/1.jpg" alt="" style="border-radius: 20px;">
                         </div>
 
                         <h3>Painting Contracting</h3>
@@ -201,7 +203,7 @@
 
                         <div class="icon-wrapper">
                             <!-- <i class="icon icon-streamline-umbrella-weather features-icon"></i> -->
-                            <img src="images/works/2.jpg" alt="" style="border-radius: 20px;">
+                            <img class="service" src="images/works/2.jpg" alt="" style="border-radius: 20px;">
                         </div>
 
                         <h3>Plumbing & Sanitary</h3>
@@ -219,7 +221,7 @@
 
                         <div class="icon-wrapper">
                             <!-- <i class="icon icon-speech-streamline-talk-user features-icon"></i> -->
-                            <img src="images/works/3.jpg" alt="" style="border-radius: 20px;">
+                            <img class="service" src="images/works/3.jpg" alt="" style="border-radius: 20px;">
                         </div>
 
                         <h3>Floor & Wall Tiling</h3>
@@ -238,8 +240,8 @@
 
                         <div class="icon-wrapper">
                             <!-- <i class="icon icon-settings-streamline-2 features-icon"></i> -->
-                            <img src="images/works/4.jpg" alt="" style="border-radius: 20px;">
-                        </div>
+                            <img class="service" src="images/works/4.jpg" alt="" style="border-radius: 20px;">
+                        </div> 
 
                         <h3>AC Maintenance</h3>
 
@@ -256,7 +258,7 @@
 
                         <div class="icon-wrapper">
                             <!-- <i class="icon icon-streamline-umbrella-weather features-icon"></i> -->
-                            <img src="images/works/5.jpg" alt="" style="border-radius: 20px;">
+                            <img class="service" src="images/works/5.jpg" alt="" style="border-radius: 20px;">
                         </div>
 
                         <h3>Electrical Maintenance</h3>
@@ -274,7 +276,7 @@
 
                         <div class="icon-wrapper">
                             <!-- <i class="icon icon-speech-streamline-talk-user features-icon"></i> -->
-                            <img src="images/works/6.jpg" alt="" style="border-radius: 20px;">
+                            <img class="service" src="images/works/6.jpg" alt="" style="border-radius: 20px;">
                         </div>
 
                         <h3>Carpentry & Floors</h3>
@@ -293,7 +295,7 @@
 
                             <div class="icon-wrapper">
                                 <!-- <i class="icon icon-settings-streamline-2 features-icon"></i> -->
-                                <img src="images/works/7.jpg" alt="" style="border-radius: 20px;">
+                                <img class="service" src="images/works/7.jpg" alt="" style="border-radius: 20px;">
                             </div>
     
                             <h3>Wallpaper Fixing</h3>
@@ -311,7 +313,7 @@
     
                             <div class="icon-wrapper">
                                 <!-- <i class="icon icon-streamline-umbrella-weather features-icon"></i> -->
-                                <img src="images/works/8.jpg" alt="" style="border-radius: 20px;">
+                                <img class="service" src="images/works/8.jpg" alt="" style="border-radius: 20px;">
                             </div>
     
                             <h3>False Ceiling & Partition</h3>
@@ -329,7 +331,7 @@
     
                             <div class="icon-wrapper">
                                 <!-- <i class="icon icon-speech-streamline-talk-user features-icon"></i> -->
-                                <img src="images/works/9.jpg" alt="" style="border-radius: 20px;">
+                                <img class="service" src="images/works/9.jpg" alt="" style="border-radius: 20px;">
                             </div>
     
                             <h3>Plastering Work</h3>
@@ -346,7 +348,7 @@
     
                             <div class="icon-wrapper">
                                 <!-- <i class="icon icon-speech-streamline-talk-user features-icon"></i> -->
-                                <img src="images/works/10.jpg" alt="" style="border-radius: 20px;">
+                                <img class="service" src="images/works/10.jpg" alt="" style="border-radius: 20px;">
 
                             </div>
     
@@ -364,7 +366,7 @@
     
                             <div class="icon-wrapper">
                                 <!-- <i class="icon icon-speech-streamline-talk-user features-icon"></i> -->
-                                <img src="images/works/11.jpg" alt="" style="border-radius: 20px;">
+                                <img class="service" src="images/works/11.jpg" alt="" style="border-radius: 20px;">
                             </div>
     
                             <h3>lectro-Mechanical Equipment
@@ -382,7 +384,7 @@
     
                             <div class="icon-wrapper">
                                 <!-- <i class="icon icon-speech-streamline-talk-user features-icon"></i> -->
-                                <img src="images/works/12.jpg" alt="" style="border-radius: 20px;">
+                                <img class="service" src="images/works/12.jpg" alt="" style="border-radius: 20px;">
                             </div>
     
                             <h3>Annual Maintenance
@@ -499,76 +501,7 @@
     </section>
     <!--end section-grey-->
 
-    <!--begin fun-facts -->
-    <div class="fun-facts-wrapper">
 
-        <!--begin image-overlay -->
-        <div class="image-overlay"></div>
-        <!--end image-overlay -->
-
-        <!--begin container-->
-        <div class="container fun-facts-inside">
-
-            <!--begin row-->
-            <div class="row">
-
-                <!--begin fun-facts-box -->
-                <div class="fun-facts-box text-center wow fadeIn" data-wow-delay="0.15s">
-
-                    <i class="icon icon-design-pencil-rule-streamline"></i>
-
-                    <p class="fun-facts-title"><span class="facts-numbers">1050+</span><br>Projects Completed</p>
-
-                </div>
-                <!--end fun-facts-box -->
-
-                <!--begin fun-facts-box -->
-                <div class="fun-facts-box text-center wow fadeIn" data-wow-delay="0.3s">
-
-                    <i class="icon icon-streamline-umbrella-weather"></i>
-
-                    <p class="fun-facts-title"><span class="facts-numbers">217k</span><br>Happy Clients</p>
-
-                </div>
-                <!--end fun-facts-box -->
-
-                <!--begin fun-facts-box -->
-                <div class="fun-facts-box text-center wow fadeIn" data-wow-delay="0.45s">
-
-                    <i class="icon icon-crown-king-streamline"></i>
-
-                    <p class="fun-facts-title"><span class="facts-numbers">1210</span><br>Design Awards</p>
-
-                </div>
-                <!--end fun-facts-box -->
-
-                <!--begin fun-facts-box -->
-                <div class="fun-facts-box text-center wow fadeIn" data-wow-delay="0.6s">
-
-                    <i class="icon icon-cocktail-mojito-streamline"></i>
-
-                    <p class="fun-facts-title"><span class="facts-numbers">2137</span><br>Cups Of Coffee</p>
-
-                </div>
-                <!--end fun-facts-box -->
-
-                <!--begin fun-facts-box -->
-                <div class="fun-facts-box text-center wow fadeIn" data-wow-delay="0.75s">
-
-                    <i class="icon icon-speech-streamline-talk-user"></i>
-
-                    <p class="fun-facts-title"><span class="facts-numbers">24/7</span><br>Fast Support</p>
-
-                </div>
-                <!--end fun-facts-box -->
-
-            </div>
-            <!--end row-->
-
-        </div>
-        <!--end container-->
-
-    </div>
     <!--end fun-facts -->
 
     <!--begin portfolio -->
@@ -969,7 +902,7 @@
 
                 <!--begin col-md-6-->
                 <div class="col-md-6 margin-top-30 margin-bottom-30">
-                    <img src="images/585x281.jpg" style="width: 555px; height: 281px;" alt="">
+                    <img src="images/585x281.jpg" style="max-width:400px;" alt="">
 
                     <!-- <iframe src="http://player.vimeo.com/video/69988283?title=0&amp;byline=0&amp;portrait=0"
                         height="312" width="555"></iframe> -->
@@ -1214,8 +1147,7 @@
     <script src="js/wow.js"></script>
     <script src="js/custom.js"></script>
     <script src="js/plugins.js"></script>
-    <script src="https://smtpjs.com/v3/smtp.js">
-    </script>
+    
     <script>
 
     function sendEmail(){
@@ -1224,7 +1156,7 @@
      Host : "smtp.zoho.com",
      Username : "info@neighborhoodts.com",
      Password : "o#lRfm3v",
-     To : 'vikhil@loopmea.com',
+     To : 'info@neighborhoodts.com',
      From : document.getElementById("email").value,
      Subject : "New Contact Form Enquiry",
      Body : "Name:" + document.getElementById("name").value +

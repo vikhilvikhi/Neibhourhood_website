@@ -777,6 +777,11 @@ p.home-subtitle{
     -moz-transition: all .50s ease-in-out;
     -webkit-transition: all .50s ease-in-out;
 }
+.service {
+
+	width: 100%;
+	max-width: 400px;
+}
 
 .services-item {
     margin: 16px 0;
