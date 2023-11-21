@@ -1,5 +1,7 @@
 <?php
 
+
+
 $field_first_name = $_POST['names'];
 
 $field_subject = $_POST['subject'];
@@ -10,7 +12,7 @@ $field_phone = $_POST['phone'];
 
 $field_message = $_POST['message'];
 
-$mail_to = 'vikhil@loopmea.com';
+$mail_to = 'info@neighborhoodts.com';
 
 $subject = 'Message from a site visitor '.$field_first_name;
 
