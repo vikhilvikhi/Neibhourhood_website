@@ -1430,7 +1430,8 @@ textarea.white-input:-ms-input-placeholder { /* Internet Explorer 10+ */
 }
 
 p.contact_success_box{
-	display:inline-block;
+	/* display:inline-block; */
+	text-align: center;
 	color:#fff;
 	font-size:20px;
 	font-style:italic;
