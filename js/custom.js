@@ -140,11 +140,11 @@ $(window).load(function(){
 		form.submit(function(e) {
 			if (!e.isDefaultPrevented()) {
 				jQuery.post(this.action,{
-					'names':$('input[name="contact_names"]').val(),
-					'subject':$('input[name="contact_subject"]').val(),
-					'email':$('input[name="contact_email"]').val(),
-					'phone':$('input[name="contact_phone"]').val(),
-					'message':$('textarea[name="contact_message"]').val(),
+					'names':$('input[name="name"]').val(),
+					'subject':$('input[name="ubject"]').val(),
+					'email':$('input[name="email"]').val(),
+					'phone':$('input[name="phone"]').val(),
+					'message':$('textarea[name="message"]').val(),
 				},function(data){
 					form.fadeOut('fast', function() {
 						$(this).siblings('p').show();
