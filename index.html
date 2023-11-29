@@ -29,6 +29,7 @@
     <link rel="shortcut icon" href="images/favicon.png">
     <script src="https://smtpjs.com/v3/smtp.js">
     </script>
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
     
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
     <!--[if lt IE 9]>
@@ -855,22 +856,20 @@
                 <!--begin col-md-6-->
                 <div class="col-md-6 margin-top-10 margin-bottom-30">
 
-                    <h3 class="medium-title white">Design &amp; style should always work toward making you feel good.
+                    <h3 class="medium-title white">Expert facility Management For your Peace of mind.
                     </h3>
 
-                    <p class="white">Nemo enim ipsam voluptatem quia voluptas sit aspernatur netsum lorem fugit, sed
+                    <!-- <p class="white">Nemo enim ipsam voluptatem quia voluptas sit aspernatur netsum lorem fugit, sed
                         quia magni dolores eos qui ratione sequi nesciunt. Neque et poris ratione sequi enim ipsam
-                        voluptatem quia volupti tempor ante netsum quia magni.</p>
+                        voluptatem quia volupti tempor ante netsum quia magni.</p> -->
 
                     <ul class="features-list-dark">
-                        <li class="white"><i class="icon icon-check-mark white"></i> Netsum est, qui ipsum quiaim netsum
-                            sequi net tempor.</li>
-                        <li class="white"><i class="icon icon-check-mark white"></i> Etiam tempor ante acu ipsum
-                            finibus, atimus urnas.</li>
-                        <li class="white"><i class="icon icon-check-mark white"></i> Atimus urnas netsudat, qui ipsum
+                        <li class="white"><i class="icon icon-check-mark white"></i>We provide round-the-clock support to assist you at any time, ensuring you have guidance every step of the way</li>
+                        <li class="white"><i class="icon icon-check-mark white"></i> We are dedicated to delivering our products/services promptly, meeting your deadlines and exceeding your expectations.</li>
+                        <!-- <li class="white"><i class="icon icon-check-mark white"></i> Atimus urnas netsudat, qui ipsum
                             quiaim netsum.</li>
                         <li class="white"><i class="icon icon-check-mark white"></i> Etiam tempor ante acum ipsum et
-                            finibus.</li>
+                            finibus.</li> -->
                     </ul>
 
                     <a href="#" class="btn btn-lg btn-white small">Discover More</a>
@@ -919,12 +918,9 @@
 
                     <h3 class="medium-title">More About Us</h3>
 
-                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia magni
-                        dolores eos qui ratione sequi nesciunt. Neque porro quisquam est, qui ipsum quiaim netsum.
-                        Consequuntur sequimagni.</p>
+                    <p>Our team brings a wealth of knowledge and experience across a wide range of technical and construction disciplines.</p>
 
-                    <p>Consequuntur magni netsum es qui ratione sequi nesciunt. Neque vetim quisquat, quia voluptas
-                        quistri ipsum quiaim magni eti ratione.</p>
+                    <p>We understand that every project is unique. Our approach is tailored to meet the specific needs and requirements of each client.</p>
 
                     <a href="#" class="btn btn-lg btn-blue small margin-top-10">Discover More</a>
 
@@ -1140,6 +1136,7 @@
         <!--end container -->
 
     </div>
+    <div id="whatsapp-widget"></div>
     <!--end footer -->
 
 
@@ -1153,30 +1150,15 @@
     <script src="js/wow.js"></script>
     <script src="js/custom.js"></script>
     <script src="js/plugins.js"></script>
+
+    <script>
+        const widget = window.createElement('div');
+        widget.setAttribute('data-position', 'right');
+        widget.setAttribute('data-color', 'default');
+        widget.setAttribute('data-whatsapp', '+971526379135'); // Replace with your phone number
+        document.getElementById('whatsapp-widget').appendChild(widget);
+    </script>
     
-    <!-- <script>
-
-    function sendEmail(){
-
-     Email.send({
-     Host : "smtp.zoho.com",
-     Username : "info@neighborhoodts.com",
-     Password : "o#lRfm3v",
-     To : 'info@neighborhoodts.com',
-     From : document.getElementById("email").value,
-     Subject : "New Contact Form Enquiry",
-     Body : "Name:" + document.getElementById("name").value +
-     "<br> Subject:" + document.getElementById("subject").value +
-     "<br> Email:" + document.getElementById("email").value +
-     "<br> Phone:" + document.getElementById("phone").value +
-     "<br> Phone:" + document.getElementById("message").value
-
-}).then(
-  message => alert("Message Sent Successfully")
-);
-     }
-
-    </script> -->
     <!--Start of Tawk.to Script-->
 <script type="text/javascript">
     var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
