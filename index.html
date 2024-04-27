@@ -8,6 +8,8 @@
     <meta name="description" content="">
 
     <title>Neighbrhood</title>
+    <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+
 
     <!-- Loading Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -1188,7 +1190,43 @@
     <script src="js/wow.js"></script>
     <script src="js/custom.js"></script>
     <script src="js/plugins.js"></script>
+    
 
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {https://chat.openai.com/c/ec255398-bae0-4450-9f9a-4d135204372d
+            document.getElementById("contact-form").addEventListener("submit", function (event) {
+                var form = event.target;
+                var name = form.elements["name"].value;
+                var email = form.elements["_replyto"].value;
+                var phone = form.elements["phone"].value;
+    
+                // Basic validation example (you can add more checks as needed)
+                if (name.trim() === "") {
+                    alert("Please enter your name.");
+                    event.preventDefault(); // Prevent form submission
+                    return false;
+                }
+    
+                if (email.trim() === "" || !isValidEmail(email)) {
+                    alert("Please enter a valid email address.");
+                    event.preventDefault(); // Prevent form submission
+                    return false;
+                }
+    
+                // Add more validation checks as needed
+    
+                // If all validations pass, the form will submit normally
+                return true;
+            });
+    
+            function isValidEmail(email) {
+                // Basic email validation using a regular expression
+                var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                return emailRegex.test(email);
+            }
+        });
+    </script>
+    
 
 
     <!--Start of Tawk.to Script-->
